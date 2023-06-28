@@ -20,7 +20,7 @@ On the other hand, the client code that’s supposed to work with various collec
 ## Solution
 The main idea of the Iterator pattern is to extract the traversal behavior of a collection into a separate object called an iterator.
 
-(Iterators implement various traversal algorithms. Several iterator objects can traverse the same collection at the same time.)![https://refactoring.guru/images/patterns/diagrams/iterator/solution1.png?id=2f5fbcce6099d8ea09b2fbb83e3e7059]
+![Iterators implement various traversal algorithms. Several iterator objects can traverse the same collection at the same time.](https://refactoring.guru/images/patterns/diagrams/iterator/solution1.png?id=2f5fbcce6099d8ea09b2fbb83e3e7059)
 
 In addition to implementing the algorithm itself, an iterator object encapsulates all of the traversal details, such as the current position and how many elements are left till the end. Because of this, several iterators can go through the same collection at the same time, independently of each other.
 
